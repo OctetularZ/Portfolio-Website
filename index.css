@@ -478,7 +478,7 @@ html {
 }
 
 .middle-boxes-animation {
-  animation: slideInFromFarLeft 2s ease both, fadeIn 1s ease both;
+  animation: slideInFromFarLeft 2s ease both, fadeIn 2s ease both;
 }
 
 .middle-box-paras {
