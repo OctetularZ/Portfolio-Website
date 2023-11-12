@@ -469,7 +469,7 @@ html {
 }
 
 .layer1 {
-  margin-top: -240px;
+  margin-top: -150px;
   z-index: 3;
   position: relative;
 }
@@ -539,7 +539,6 @@ html {
   font-family: lemon;
   font-size: 25px;
   margin-bottom: 20px;
-  text-decoration: underline;
 }
 
 .layer1-reverse {
@@ -556,8 +555,7 @@ section {
   overflow: hidden;
   margin-top: -250px;
   font-family: 'Poppins', sans-serif;
-  padding-top: 50px;
-  padding-bottom: 45px;
+  animation: slideInFromRight 1s ease;
 }
 
 section .infinite-scroll {
@@ -577,18 +575,18 @@ section .infinite-scroll div {
   white-space: nowrap;
   font-weight: 900;
   text-transform: uppercase;
-  animation: infinite-scroll-animation 40s linear infinite;
-  margin-bottom: -30px;
+  border-bottom: 2px solid black;
+  animation: infinite-scroll-animation 40s linear infinite
 }
 
 section .infinite-scroll-reverse div {
   color: #000000;
-  font-size: 2em;
+  font-size: 3em;
   background: #ffffff;
   white-space: nowrap;
   font-weight: 900;
   text-transform: uppercase;
-  animation: infinite-scroll-animation-reverse 40s linear infinite;
+  animation: infinite-scroll-animation-reverse 40s linear infinite
 }
 
 section .infinite-scroll div:nth-child(2) {
@@ -609,16 +607,6 @@ section .infinite-scroll div span {
 section .infinite-scroll-reverse div span {
   -webkit-text-stroke: 0.5px #000;
   color: transparent;
-}
-
-section .infinite-scroll.infinite-scroll-text {
-  transform: rotate(-5deg);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-section .infinite-scroll-reverse.infinite-scroll-text-reverse {
-  transform: rotate(5deg);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 /*Try bgc #001220*/
