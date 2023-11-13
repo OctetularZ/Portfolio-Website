@@ -510,6 +510,14 @@ html {
   margin-left: 95px;
   margin-bottom: 30px;
   border: 3px solid #ffffff;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.middle-boxes:hover {
+  width: 370px;
+  height: 470px;
 }
 
 .middle-boxes:nth-child(2) {
